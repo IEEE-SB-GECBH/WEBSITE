@@ -2353,40 +2353,6 @@ section {
   color: rgba(255, 255, 255, 0.8);
 }
 
-/*=================================================================
-  About us section
-==================================================================*/
-.about {
-  padding: 100px 0;
-  background: #fff;
-}
-
-.about .btn-about {
-  background: #28ABE3;
-}
-
-.about h4 {
-  margin-top: 30px;
-}
-
-.about .feature-list {
-  margin-top: 10px;
-}
-
-.about .feature-list li {
-  width: 48%;
-  display: inline-block;
-  color: #666;
-  font-size: 13px;
-  font-family: "Catamaran", sans-serif;
-  margin-bottom: 5px;
-  font-weight: 600;
-}
-
-.about .feature-list li i {
-  color: #28ABE3;
-  margin-right: 8px;
-}
 
 /*=================================================================
   About us 2 section
@@ -2428,4 +2394,15 @@ section {
 .about-2 img
 {
   max-width: 400px;
+}
+
+.numbersin
+{
+  font-size: 50px;
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.numbersin img
+{
+  margin-bottom: 75px;
 }
