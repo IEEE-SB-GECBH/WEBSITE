@@ -2328,3 +2328,104 @@ section {
   color: #fff;
   text-decoration: none;
 }
+
+/*--------------------------------------------------------------
+# Counts
+--------------------------------------------------------------*/
+.counts {
+  background: linear-gradient(90deg, rgba(25, 9, 173, 0.5) 0%, rgba(24, 8, 43, 0.575) 100%), url("../img/dark.jfif") ;
+  padding: 80px 0 60px 0;
+  background-size: cover;
+}
+
+.counts .counters span {
+  font-size: 48px;
+  display: block;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.counts .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+/*=================================================================
+  About us section
+==================================================================*/
+.about {
+  padding: 100px 0;
+  background: #fff;
+}
+
+.about .btn-about {
+  background: #28ABE3;
+}
+
+.about h4 {
+  margin-top: 30px;
+}
+
+.about .feature-list {
+  margin-top: 10px;
+}
+
+.about .feature-list li {
+  width: 48%;
+  display: inline-block;
+  color: #666;
+  font-size: 13px;
+  font-family: "Catamaran", sans-serif;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.about .feature-list li i {
+  color: #28ABE3;
+  margin-right: 8px;
+}
+
+/*=================================================================
+  About us 2 section
+==================================================================*/
+.about-2 {
+  background: #d5b5ffab;
+  margin: 100px;
+}
+
+.about-2 .checklist {
+  padding-left: 30px;
+}
+
+.about-2 .checklist li {
+  position: relative;
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: #777;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.about-2 .checklist li:before {
+  position: absolute;
+  margin-right: 12px;
+  margin-left: -45px;
+  content: "\f375";
+  font-family: "themefisher-font";
+  opacity: 1;
+  border-radius: 50%;
+  padding: 2px 8px;
+  font-size: 20px;
+}
+.about-2 p
+{
+  margin-top: 50px;
+  font-size: larger;
+  padding: 10px;
+}
+.about-2 img
+{
+  max-width: 400px;
+}
