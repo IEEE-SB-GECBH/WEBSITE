@@ -1211,6 +1211,7 @@ section {
   font-size: 14px;
   background: #fff;
   margin-top: 100px;
+  animation: none;
 }
 
 #footer .footer-top {
