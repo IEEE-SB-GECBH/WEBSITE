@@ -37,14 +37,15 @@
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: rgba(239, 102, 3, 0.8);
+  background: rgba(115, 151, 47, 0.8);
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
 }
 
 .team .member .social a:hover {
-  background: #fc8129;
+  background: #9a42ec;
+  text-decoration: none;
 }
 
 .team .member .social i {
@@ -80,6 +81,7 @@
   opacity: 1;
   bottom: 15px;
 }
+
 
 /*--------------------------------------------------------------
 # Sections General
