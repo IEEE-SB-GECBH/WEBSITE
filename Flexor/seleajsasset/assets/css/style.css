@@ -37,6 +37,11 @@ section {
   font-family: "Poppins", sans-serif;
   color: #2a2c39;
 }
+
+.rasimg img
+{
+  align-items: center;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -432,3 +437,4 @@ align-items:center;
     border-bottom: 2px solid #4771cb!important;
     transition: all .3s;
   }
+
