@@ -37,6 +37,11 @@ section {
   font-family: "Poppins", sans-serif;
   color: #2a2c39;
 }
+
+.rasimg img
+{
+  align-items: center;
+}
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -437,3 +442,27 @@ align-items:center;
     bottom: 15px;
   }
   
+  /* Visit Here */
+  .main-green-button {
+    text-align: center;
+  }
+  .main-green-button a:hover {
+    background-color: #4771cb!important;
+    color: #fff!important;
+    border-bottom: 2px solid #33ccc5!important;
+    text-decoration: none;
+  }
+  .main-green-button a {
+    display: inline-block;
+    background-color: #5dcff1;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 12px 25px;
+    border-radius: 23px;
+    letter-spacing: 0.25px;
+    border-bottom: 2px solid #4771cb!important;
+    transition: all .3s;
+  }
+
