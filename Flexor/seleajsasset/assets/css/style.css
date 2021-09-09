@@ -121,19 +121,13 @@ section {
       line-height: 1;
       font-size: 36px;
     }
-  }@media (max-width: 768px) {
-    .features .nav-link i {
-      padding: 0;
-      line-height: 1;
-      font-size: 36px;
-    }
   }
   
   @media (max-width: 575px) {
-    .features .nav-link h4{
+    .features .nav-link {
       padding: 15px;
     }
-    .features .nav-link h4 {
+    .features .nav-link i {
       font-size: 24px;
     }
   }
@@ -223,7 +217,7 @@ align-items:center;
   # Award
   --------------------------------------------------------------*/
 .faq {
-  padding: 100px 0;
+  padding: 0px 0;
 }
 
 .faq .faq-list {
