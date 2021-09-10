@@ -11,27 +11,30 @@
     <!-- Favicons -->
     <link href="../assets/img/favicon.png" rel="icon" />
     <link href="../assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+      rel="stylesheet">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
     <!-- Vendor CSS Files -->
     <link
       href="../assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
+      rel="stylesheet"/>
     <link href="../assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
-    <link
-      href="../assets/vendor/boxicons/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link href="../assets/vendor/venobox/venobox.css" rel="stylesheet" />
     <link
-      href="../assets/vendor/owl.carousel/assets/owl.carousel.min.css"
-      rel="stylesheet"
-    />
+      href="assets/vendor/owl.carousel/assets/owl.carousel.min.css"
+      rel="stylesheet"/>
     <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="../assets/vendor/bootstrap/css/boo" rel="stylesheet">
+
+    <!--Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.minseo.css" rel="stylesheet">
+
     <!-- Template Main CSS File -->
     <link href="../assets/css/style.css" rel="stylesheet" />
     <link rel="stylesheet" href="../assets/css/fontawesome.css">
@@ -160,11 +163,15 @@
       <div class="container">
         
 
-        <div class="section-title" data-aos="zoom-out">
-         
-          <p>IEEE ROBOTICS AND AUTOMATION SOCIETY</p>
-          <h2>ABOUT THE CHAPTER</h2>
-          <h3>   </h3>
+        <div class="section-title2" data-aos="zoom-out">
+
+          <div class="section-title" data-aos="zoom-out">
+            <p>IEEE Robotics and Automation Society</p>
+            <h2>ABOUT THE CHAPTER</h2>
+            <img src="../assets/img/lines.svg" class="img-lines" alt="lines">
+            <br>
+            <br>
+        </div>
         </div>
         <div class="rasimg">
           <div data-aos="fade-up">
@@ -203,21 +210,17 @@
     <section id="features" class="features">
       <div class="container">
 
-        <ul class="nav nav-tabs row d-flex">
-          <li class="nav-item col-3" data-aos="zoom-in">
-            <a class="nav-link active show" data-toggle="tab" href="#tab-1">
-              <i class="ri-gps-line"></i>
-              <h4 class="d-none d-lg-block"> </h4>
-            </a>
-          </li> 
-        </ul>
+        <div class="rastoggle">
+          <img src="../assets/img/rastoggle.png">
+        </div>
 
         <div class="tab-content" data-aos="fade-up">
           <div class="tab-pane active show" id="tab-1">
             <div class="row">
               <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0"> 
                 <p class="font-italic">
-                  <h4><strong>INTIATIVES-KNOWBOTS</strong></h4>
+                  <h1><strong>INTIATIVES-KNOWBOTS</strong></h1>
+                  <br><br><br><br>
                   The IEEE Spectrum Magazine, the flagship magazine and website of IEEE is one of the prime advantages an IEEE Member gets from his/her membership. The magazine keeps the members informed about major trends and developments in technology, engineering, and science.
                 </p>
                 
@@ -225,9 +228,11 @@
                   Knowbots, our digital initiative which is released weekly on our Instagram, Facebook, and LinkedIn handles aims to condense one of the Robotics oriented articles of the month and present it in a concise and brief manner. The primary objective of Knowbots is to promote the reading of the vast and knowledgeable Spectrum Magazine amongst the members. The first edition of Knowbots was released on 18th May 2020. Knowbots was then rereleased on 17th February 2021 with a new and updated template.
                 </p>
               </div>
-              <!--<div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="../seleajsasset/assets/img/features-1.png" alt="" class="img-fluid">//
-              </div>--->
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <div class="rasill">
+                <img src="../assets/img/rasillustration.png" alt="" class="img-fluid">
+              </div>
+              </div>
             </div>
           </div>
           
@@ -239,15 +244,23 @@
 
     
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container">
-        <div class="counters">
-                  <div class="item">
-                      <span class="counter" data-target="109"></span>
-                      <span class="counter__text"><p>Total student member strength
-                    <br>(as of March 29, 2021)</br> </span>
-                  </div>
-    </section><!-- End Counts Section -->
+  
+  <section id="counts" class="counts">
+    <div class="container">
+
+      <div class="row counters">
+
+        <div class="col-lg-3 col-6 text-center">
+          <span data-purecounter-start="0" data-purecounter-end="246" data-purecounter-duration="1" class="purecounter"></span>
+          <p>Members</p>
+        </div>
+
+        
+      </div>
+
+    </div>
+  </section>
+  <!-- End Counts Section -->
 
      <!-- ======= Award ======= -->
      <section id="faq" class="faq">
@@ -875,6 +888,13 @@
     <script src="../assets/vendor/owl.carousel/owl.carousel.min.js"></script>
     <script src="../assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
     <script src="../assets/vendor/aos/aos.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.jsseo.map"></script>
+    <script src="../assets/js/owl-carousel.js"></script>
+    <script src="../assets/js/animation.js"></script>
+    <script src="../assets/js/imagesloaded.js"></script>
+    <script src="../assets/js/custom.js"></script>
+    <script src="../assets/vendor/purecounter/purecounter.js"></script>
     <!-- Template Main JS File -->
     <script src="../assets/js/main.js"></script>
 

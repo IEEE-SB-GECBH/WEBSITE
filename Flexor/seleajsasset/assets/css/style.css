@@ -3,11 +3,11 @@ section {
   overflow: hidden;
 }
 
-.section-title {
+.section-title2 {
   padding-bottom: 40px;
 }
 
-.section-title h2 {
+.section-title2 h2 {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -19,7 +19,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title h2::after {
+.section-title2 h2::after {
   content: "";
   width: 120px;
   height: 1px;
@@ -28,7 +28,7 @@ section {
   margin: 4px 10px;
 }
 
-.section-title p {
+.section-title2 p {
   margin: 0;
   margin: 0;
   font-size: 36px;
@@ -42,6 +42,7 @@ section {
 {
   align-items: center;
 }
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -466,3 +467,109 @@ align-items:center;
     transition: all .3s;
   }
 
+
+
+.rastoggle
+{
+  margin-left: 50%;
+}
+.rastoggle img
+{
+  width: 95px;
+  height: 95px;
+}
+
+.rasill
+{
+  margin-top: 200px;
+}
+
+/*============================================================
+	For Small Desktop
+==============================================================*/
+@media (min-width: 700px) and (max-width: 1090px) {
+  .rastoggle
+{
+  margin-left: 40%;
+}
+.rasill
+{
+  margin-top: 0%;
+}
+.rastoggle img
+{
+  width: auto;
+   height: 100%;
+}
+}
+
+@media (min-width: 980px) and (max-width: 1150px) {
+  .rastoggle
+  {
+    margin-left: 50%;
+  }
+  .rasill
+{
+  margin-top: 0%;
+}
+.rastoggle img
+{
+  width: auto;
+   height: 100%;
+}
+}
+
+/*============================================================
+	Tablet (Portrait) Design for a width of 768px
+==============================================================*/
+@media (min-width: 768px) and (max-width: 979px) {
+  .rastoggle
+  {
+    margin-left: 50%;
+  }
+  .rasill
+{
+  margin-top: 0%;
+}
+.rastoggle img
+{
+  width: auto;
+   height: 100%;
+}
+}
+/*============================================================
+	Mobile (Portrait) Design for a width of 320px
+==============================================================*/
+@media screen and (max-width: 767px) {
+  .rastoggle
+  {
+    margin-left: 50%;
+  }
+  .rasill
+{
+  margin-top: 0%;
+}
+.rastoggle img
+{
+  width: auto;
+   height: 100%;
+}
+}
+/*============================================================
+	Mobile (Landscape) Design for a width of 480px
+==============================================================*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .rastoggle
+  {
+    margin-left: 50%;
+  }
+  .rasill
+{
+  margin-top: 0%;
+}
+.rastoggle img
+{
+  width: auto;
+   height: 100%;
+}
+}
