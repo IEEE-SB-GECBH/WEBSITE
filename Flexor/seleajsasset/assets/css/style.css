@@ -169,7 +169,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(90deg, rgba(140, 17, 197, 0.5) 0%, rgba(5, 91, 172, 0.5) 100%), url("../img/dark.jfif") ;
+  background: linear-gradient(90deg, rgb(92 200 241 / 50%) 0%, rgb(183 71 249 / 50%) 100%) , url("../img/dark.jfif") ;
   padding: 20px 0 10px 0;display:flex;
 }
 
