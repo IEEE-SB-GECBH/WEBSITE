@@ -3,11 +3,11 @@ section {
   overflow: hidden;
 }
 
-.section-title2 {
+.section-title {
   padding-bottom: 40px;
 }
 
-.section-title2 h2 {
+.section-title h2 {
   font-size: 14px;
   font-weight: 500;
   padding: 0;
@@ -19,8 +19,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.section-title2 h2::after {
-  content: "";
+.section-title h2::after {
   width: 120px;
   height: 1px;
   display: inline-block;
@@ -28,7 +27,7 @@ section {
   margin: 4px 10px;
 }
 
-.section-title2 p {
+.section-title p {
   margin: 0;
   margin: 0;
   font-size: 36px;
@@ -485,6 +484,10 @@ align-items:center;
 .countras
 {
   margin-left: 500px;
+}
+.aboutcolour
+{
+  color: grey;
 }
 
 
