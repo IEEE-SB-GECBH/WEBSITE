@@ -170,7 +170,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(90deg, rgba(140, 17, 197, 0.5) 0%, rgba(5, 91, 172, 0.5) 100%), url("../img/counts-bg.png") center center no-repeat;
+  background: linear-gradient(90deg, rgba(140, 17, 197, 0.5) 0%, rgba(5, 91, 172, 0.5) 100%), url("../img/dark.jfif") ;
   padding: 20px 0 10px 0;display:flex;
 }
 
@@ -501,6 +501,9 @@ align-items:center;
   width: auto;
    height: 100%;
 }
+.row counters{
+  display: none;
+}
 }
 
 @media (min-width: 980px) and (max-width: 1150px) {
@@ -517,6 +520,10 @@ align-items:center;
   width: auto;
    height: 100%;
 }
+.row counters{
+  display: none;
+}
+
 }
 
 /*============================================================
@@ -554,6 +561,9 @@ align-items:center;
   width: auto;
    height: 100%;
 }
+.row counters{
+  display: none;
+}
 }
 /*============================================================
 	Mobile (Landscape) Design for a width of 480px
@@ -571,5 +581,8 @@ align-items:center;
 {
   width: auto;
    height: 100%;
+}
+.row counters{
+  display: none;
 }
 }
