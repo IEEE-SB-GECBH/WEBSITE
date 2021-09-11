@@ -473,16 +473,20 @@ align-items:center;
 {
   margin-left: 50%;
 }
-.rastoggle img
+.rastoggle
 {
-  width: 95px;
-  height: 95px;
+  display:none;
 }
 
 .rasill
 {
   margin-top: 200px;
 }
+.countras
+{
+  margin-left: 500px;
+}
+
 
 /*============================================================
 	For Small Desktop
@@ -496,13 +500,16 @@ align-items:center;
 {
   margin-top: 0%;
 }
-.rastoggle img
+.rastoggle
 {
-  width: auto;
-   height: 100%;
+  display:none;
 }
 .row counters{
   display: none;
+}
+.countras
+{
+  margin-left: 45%;
 }
 }
 
@@ -515,15 +522,17 @@ align-items:center;
 {
   margin-top: 0%;
 }
-.rastoggle img
+.rastoggle
 {
-  width: auto;
-   height: 100%;
+  display:none;
 }
 .row counters{
   display: none;
 }
-
+.countras
+{
+  margin-left: 45%;
+}
 }
 
 /*============================================================
@@ -538,10 +547,13 @@ align-items:center;
 {
   margin-top: 0%;
 }
-.rastoggle img
+.rastoggle
 {
-  width: auto;
-   height: 100%;
+  display:none;
+}
+.countras
+{
+  margin-left: 45%;
 }
 }
 /*============================================================
@@ -556,13 +568,16 @@ align-items:center;
 {
   margin-top: 0%;
 }
-.rastoggle img
+.rastoggle
 {
-  width: auto;
-   height: 100%;
+  display:none;
 }
 .row counters{
   display: none;
+}
+.countras
+{
+  margin-left: 45%;
 }
 }
 /*============================================================
@@ -577,12 +592,15 @@ align-items:center;
 {
   margin-top: 0%;
 }
-.rastoggle img
+.rastoggle
 {
-  width: auto;
-   height: 100%;
+  display:none;
 }
 .row counters{
   display: none;
+}
+.countras
+{
+  margin-left: 45%;
 }
 }
