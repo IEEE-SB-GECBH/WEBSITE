@@ -173,6 +173,7 @@ section {
   padding: 20px 0 10px 0;display:flex;
 }
 
+
 .counts .counters span {
   font-size: 48px;
   display: center;
@@ -190,6 +191,27 @@ section {
 .row.counters{
 align-items:center;
 }
+/* COUNTS WIE */
+
+.countswie .counters span {
+  font-size: 48px;
+  display: center;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.countswie .counters p {
+ /* padding:300; */
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.countswie {
+  background: linear-gradient(90deg, rgb(251 250 245 / 50%) 0%, rgb(207 66 232 / 50%) 100%) , url("../img/dark.jfif") ;
+  padding: 20px 0 10px 0;display:flex;
+}
+
 
 
 /*--------------------------------------------------------------
