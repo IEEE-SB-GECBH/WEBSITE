@@ -212,6 +212,27 @@ align-items:center;
   padding: 20px 0 10px 0;display:flex;
 }
 
+/* COUNTS APS */
+
+.countsaps .counters span {
+  font-size: 48px;
+  display: center;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.countsaps .counters p {
+ /* padding:300; */
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.countsaps {
+  background: linear-gradient(90deg, #eff3f7 0%, #343a40 100%) , url("../img/dark.jfif") ;
+  padding: 20px 0 10px 0;display:flex;
+}
+
 
 
 
