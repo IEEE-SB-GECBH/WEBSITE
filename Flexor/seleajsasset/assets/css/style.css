@@ -233,8 +233,47 @@ align-items:center;
   padding: 20px 0 10px 0;display:flex;
 }
 
+/* COUNTS CS */
 
+.countcs .counters span {
+  font-size: 48px;
+  display: center;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
 
+.countcs .counters p {
+ /* padding:300; */
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.countcs {
+  background: linear-gradient(90deg, #f8faf8eb 0%, #1b6fa0 100%) , url("../img/dark.jfif") ;
+  padding: 20px 0 10px 0;display:flex;
+}
+
+/* COUNTS CS */
+
+.countsmtts .counters span {
+  font-size: 48px;
+  display: center;
+  color: #fff;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+
+.countsmtts .counters p {
+ /* padding:300; */
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.countsmtts {
+  background: linear-gradient(90deg, #f8faf8eb 0%, #0c5b5f 100%) , url("../img/dark.jfif") ;
+  padding: 20px 0 10px 0;display:flex;
+}
 
 /*--------------------------------------------------------------
 # Features
