@@ -282,7 +282,7 @@ align-items:center;
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #ef6603;
+  font-family: #5f6b5b;
   font-size: 18px;
   font-weight: 500;
 }
@@ -304,7 +304,7 @@ align-items:center;
 }
 
 .faq .faq-list a.collapsed {
-  color: #343a40;
+  color: #5f6b5b;
 }
 
 .faq .faq-list a.collapsed:hover {
@@ -313,6 +313,13 @@ align-items:center;
 
 .faq .faq-list a.collapsed i::before {
   content: "\eab2" !important;
+}
+
+
+
+/* Grants and Scholarship section */
+.grantcolour {
+color:rgb(9 106 121);
 }
 
 /* -----------------------------------------------
