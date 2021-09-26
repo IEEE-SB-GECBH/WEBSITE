@@ -214,3 +214,247 @@
   });
 
 })(jQuery);
+
+//Carousel-Aniversary
+
+const { useState, useRef, useEffect } = React;
+
+const useTilt = active => {
+  const ref = useRef(null);
+
+  useEffect(() => {
+    if (!ref.current || !active) {
+      return;
+    }
+
+    const state = {
+      rect: undefined,
+      mouseX: undefined,
+      mouseY: undefined };
+
+
+    let el = ref.current;
+
+    const handleMouseMove = e => {
+      if (!el) {
+        return;
+      }
+      if (!state.rect) {
+        state.rect = el.getBoundingClientRect();
+      }
+      state.mouseX = e.clientX;
+      state.mouseY = e.clientY;
+      const px = (state.mouseX - state.rect.left) / state.rect.width;
+      const py = (state.mouseY - state.rect.top) / state.rect.height;
+
+      el.style.setProperty("--px", px);
+      el.style.setProperty("--py", py);
+    };
+
+    el.addEventListener("mousemove", handleMouseMove);
+
+    return () => {
+      el.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, [active]);
+
+  return ref;
+};
+
+const Slide = ({
+  image,
+  title,
+  subtitle,
+  description,
+  offset,
+  isPageBackground }) =>
+{
+  const active = offset === 0 ? true : null,
+  ref = useTilt(active);
+
+  return /*#__PURE__*/(
+    React.createElement("div", {
+      ref: ref,
+      className: "slide",
+      "data-active": active,
+      style: {
+        "--offset": offset,
+        "--dir": offset === 0 ? 0 : offset > 0 ? 1 : -1 } },
+
+    isPageBackground && /*#__PURE__*/
+    React.createElement("div", {
+      className: "slideBackground",
+      style: {
+        backgroundImage: `url("../assets/img/carousel4.jpeg")` } }), 
+
+    React.createElement("div", {
+      className: "slideContent",
+      style: {
+        backgroundImage: `url('${image}')` } }, /*#__PURE__*/
+
+
+    React.createElement("div", { className: "slideContentInner" },
+    title && /*#__PURE__*/
+    React.createElement("h2", { className: "slideTitle", dir: "auto" },
+    title),
+
+
+    subtitle && /*#__PURE__*/
+    React.createElement("h3", { className: "slideSubtitle", dir: "auto" },
+    subtitle),
+
+
+    description && /*#__PURE__*/
+    React.createElement("p", { className: "slideDescription", dir: "auto" },
+    description)))));
+
+
+
+
+
+
+};
+
+Slide.propTypes = {
+  image: PropTypes.string.isRequired,
+  title: PropTypes.string,
+  subtitle: PropTypes.string,
+  description: PropTypes.string,
+  offset: PropTypes.number.isRequired,
+  isPageBackground: PropTypes.bool };
+
+
+const Carousel = ({ slides, isPageBackground }) => {
+  const [slideIndex, setSlideIndex] = useState(0);
+
+  const handlePrevSlide = () => {
+    setSlideIndex(prev => prev === 0 ? slides.length - 1 : prev - 1);
+  };
+
+  const handleNextSlide = () => {
+    setSlideIndex(prev => (prev + 1) % slides.length);
+  };
+
+  return /*#__PURE__*/(
+    React.createElement("section", { className: "slidesWrapper" }, /*#__PURE__*/
+    React.createElement("div", { className: "slides" }, /*#__PURE__*/
+    React.createElement("button", { className: "prevSlideBtn", onClick: handlePrevSlide }, /*#__PURE__*/
+    React.createElement("i", { className: "fas fa-chevron-left" })),
+
+
+    [...slides, ...slides, ...slides].map((slide, i) => {
+      let offset = slides.length + (slideIndex - i);
+
+      if (typeof slide === "string") {
+        return /*#__PURE__*/(
+          React.createElement(Slide, {
+            image: slide,
+            offset: offset,
+            isPageBackground: isPageBackground,
+            key: i }));
+
+
+      } else {
+        return /*#__PURE__*/(
+          React.createElement(Slide, {
+            image: slide.image,
+            title: slide.title,
+            subtitle: slide.subtitle,
+            description: slide.description,
+            offset: offset,
+            isPageBackground: isPageBackground,
+            key: i }));
+
+
+      }
+    }), /*#__PURE__*/
+    React.createElement("button", { className: "nextSlideBtn", onClick: handleNextSlide }, /*#__PURE__*/
+    React.createElement("i", { className: "fas fa-chevron-right" })))));
+
+
+
+
+};
+
+Carousel.propTypes = {
+  slides: PropTypes.array.isRequired,
+  isPageBackground: PropTypes.bool };
+
+
+const slides = [
+{
+  id: 1,
+  image: "../assets/img/carousel1.jpeg" },
+
+{
+  id: 2,
+  image: "../assets/img/carousel2.jpeg" },
+
+{
+  id: 3,
+  image: "../assets/img/carousel3.jpeg" },
+  
+{
+  id: 4,
+  image: "../assets/img/carousel4.jpeg" },
+    
+  
+{
+  id: 5,
+  image: "../assets/img/carousel5.jpeg"},
+
+{
+  id: 6,
+  image: "../assets/img/carousel6.jpeg" },
+
+{
+  id: 7,
+  image: "../assets/img/carousel7.jpeg" },
+
+{
+  id: 8,
+  image: "../assets/img/carousel8.jpeg"},
+
+{
+  id: 9,
+  image: "../assets/img/carousel9.jpeg" },
+
+{
+  id: 10,
+  image: "../assets/img/carousel10.jpeg" },
+
+{
+  id: 11,
+  image: "../assets/img/carousel11.jpeg" },
+
+{
+  id: 12,
+  image: "../assets/img/carousel12.jpeg" },
+
+{
+  id: 13,
+  image: "../assets/img/carousel13.jpeg"}];
+    
+  
+
+
+
+
+const app = /*#__PURE__*/React.createElement(Carousel, { slides: slides, isPageBackground: true });
+
+ReactDOM.render(app, document.querySelector("#app"));
+
+
+//Contact-Us
+$("#contact").validate({
+  rules: {
+    website: {
+      required: true,
+      url: true
+    }
+  },
+  submitHandler: function(form) {
+    form.submit();
+  }
+ });
+
