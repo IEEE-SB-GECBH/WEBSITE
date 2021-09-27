@@ -607,6 +607,11 @@ h6 {
 }
 #footer .credits a {
   transition: 0.3s;
+  color: rgb(212, 247, 59);
+}
+#footer .credits a:hover
+{
+  text-decoration: none;
 }
 @media (max-width: 768px) {
   #footer .footer-bottom {
