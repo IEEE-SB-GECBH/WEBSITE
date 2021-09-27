@@ -31,6 +31,7 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -112,7 +113,9 @@ h6 {
   padding: 0;
   list-style: none;
 }
-
+.nav-menu ul{
+  display:flex;
+}
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
@@ -215,7 +218,6 @@ h6 {
     content: "\ea9d";
   }
 }
-
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
@@ -420,6 +422,15 @@ h6 {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  margin-bottom: -100px;
+  padding-top: 10px;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  margin-left: 50px;
+  color: #2a2c39;
+
 }
 
 .section-title h2 {
@@ -431,8 +442,32 @@ h6 {
   color: #635551;
 }
 
+
 .section-title p {
-  margin-bottom: 0;
+  text-align: center;
+  padding-bottom: 30px;
+  
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  
+  color: #2a2c39;
+}
+.img-lines{
+
+ padding-bottom: 100px;
+}
+.aboutcolour{
+  padding-bottom: 40px;
+}
+@media (max-width:480px) {
+  .section-title p{
+    padding-right: 24px;
+  }
+  .img-lines{
+    margin-top: 10px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -547,10 +582,7 @@ h6 {
   font-size: 24px;
   text-align: center;
 }
-.img-fluid {
-  margin-top: -20px;
-  margin-bottom: -20px;
-}
+
 .mission {
   padding-top: 75px;
 }
@@ -689,11 +721,7 @@ h6 {
   flex: 50%;
   padding: 10px;
 }
-li {
-  font-size: 16px;
-  margin-left: 10px;
-  list-style-type: circle;
-}
+
 @import url(https://fonts.googleapis.com/css?family=Alegreya);
 .quote-body {
   font-family: "Alegreya", serif;
@@ -1053,8 +1081,10 @@ Variables
   line-height: 1.5;
   font-size: 0.875rem;
 }
-ul {
+li {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   text-decoration: none;
@@ -1499,6 +1529,7 @@ a {
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #656262;
+ 
 }
 
 #footer .footer-top h4 {
@@ -1655,7 +1686,7 @@ a {
   opacity: 0;
   transition: ease-in-out 0.3s;
   text-align: center;
-  background: rgba(255, 255, 255, 0.85);
+  /*background: rgba(255, 255, 255, 0.85);*/
 }
 
 .team .member .social a {
@@ -2090,6 +2121,7 @@ a {
 # Contact
 --------------------------------------------------------------*/
 
+
 .contact-page-sec {
   padding: 60px 0;
   min-height: 100vh;
@@ -2358,6 +2390,10 @@ a {
     transform: rotate(360deg);
   }
 }
+#advisor {
+  margin-left: 87px;
+}
+
 
 .wrapper {
   overflow: hidden;
@@ -2373,6 +2409,7 @@ a {
 }
 .wrapper .container {
   overflow: hidden;
+  padding-left: 100px;
   display: flex;
   flex-wrap: wrap;
   /* background: #b3f0ff; */
@@ -2406,9 +2443,6 @@ a {
   color: #ff0000;
 }
 
-#advisor {
-  padding-left: 286px;
-}
 
 @keyframes refresh {
   0% {
@@ -2420,21 +2454,13 @@ a {
   }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (min-width: 766px) {
   #advisor {
     padding-left: 12px;
   }
 }
 
-@media screen and (min-width: 760px) {
-  .wrapper .container .card {
-    width: 155px;
-    height: 150px;
-  }
-  #advisor {
-    padding-left: 190px;
-  }
-}
+
 
 @media screen and (min-width: 1000px) {
   .wrapper .container .card {
@@ -2444,6 +2470,28 @@ a {
   #advisor {
     padding-left: 285px;
   }
+}
+@media screen and (max-width: 600px) {
+  .wrapper .container .card {
+    width: 240px;
+    height: 120px;
+    
+  }
+  #advisor {
+    margin: 0;
+ 
+  }
+  .wrapper .container {
+    overflow: hidden;
+    padding-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    /* background: #b3f0ff; */
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
 }
 
 /*--------------------------------------------------------------
@@ -3130,15 +3178,8 @@ h1 {
   line-height: 40px;
 }
 
-.postitle {
-  text-align: center;
-  font-family: "Raleway", sans-serif;
-  font-size: 40px;
-  letter-spacing: 0px;
-  color: #0e3558;
-  margin: 20px;
-  font-weight: bold;
-  letter-spacing: 1px;
+.about {
+  padding-top: 80px;
 }
 h2 {
   color: #1e73be;
@@ -3167,6 +3208,7 @@ hr {
   color: #1e73be;
   font-size: 16px;
   font-weight: bold;
+  
 }
 #low-heading {
   padding-top: 15px;
@@ -3202,7 +3244,7 @@ hr {
 @media (max-width: 480px) {
   body {
     font-size: 14px;
-    line-height: 22px;
+    
   }
 }
 .main-green-button {
@@ -3226,4 +3268,10 @@ hr {
   letter-spacing: 0.25px;
   border-bottom: 2px solid #1e73be;
   transition: all 0.3s;
+}
+
+.ri-check-double-line{
+  color:#ff7e54;
+  padding: 5px;
+  font-size: medium;
 }
