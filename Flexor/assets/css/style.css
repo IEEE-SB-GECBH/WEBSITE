@@ -3314,6 +3314,11 @@ hr {
   border-bottom: 2px solid #1e73be;
   transition: all 0.3s;
 }
+.ri-check-double-line{
+  color:#ff7e54;
+  padding: 5px;
+  font-size: medium;
+}
 
 /* 
 ---------------------------------------------
@@ -3428,9 +3433,7 @@ Footer Masking
     display: inherit;
     align-items: center;
   }
-  .section-title {
-    display: none;
-  }
+  
 }
 
 @media (min-width: 980px) and (max-width: 1150px) {
@@ -3441,9 +3444,7 @@ Footer Masking
     display: inherit;
     align-items: center;
   }
-  .section-title {
-    display: none;
-  }
+  
 }
 
 /*============================================================
@@ -3457,9 +3458,7 @@ Footer Masking
     display: inherit;
     align-items: center;
   }
-  .section-title {
-    display: none;
-  }
+  
 }
 /*============================================================
 	Mobile (Portrait) Design for a width of 320px
@@ -3472,9 +3471,7 @@ Footer Masking
     display: inherit;
     align-items: center;
   }
-  .section-title {
-    display: none;
-  }
+
 }
 /*============================================================
 	Mobile (Landscape) Design for a width of 480px
@@ -3487,7 +3484,5 @@ Footer Masking
     display: inherit;
     align-items: center;
   }
-  .section-title {
-    display: none;
-  }
+  
 }
