@@ -70,7 +70,8 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 10px 0;
-  background: #fff;
+  background: #ffffff61;
+  backdrop-filter: blur(81px);
 }
 
 #header.header-scrolled {
