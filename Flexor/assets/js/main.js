@@ -120,27 +120,27 @@
 
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
-      $('.nav-menu a').addClass('header-scrolled');
+      $('#index-a-tg').css("color", "rgb(48, 48, 48)");
     } else {
-      $('.nav-menu a').removeClass('header-scrolled');
+      $('#index-a-tg').css("color", "white");
     }
   });
 
-  if ($(window).scrollTop() > 100) {
-    $('.nav-menu a').addClass('header-scrolled');
-  }
+  // if ($(window).scrollTop() > 100) {
+  //   $('#index-a-tg').css("color", "white");
+  // }
 
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
-      $('#header').addClass('header-scrolled');
+      $('.nav-menu a.index-a-tg').css("color", "rgb(48, 48, 48)");
     } else {
-      $('#header').removeClass('header-scrolled');
+      $('.nav-menu a.index-a-tg').css("color", "white");
     }
   });
 
-  if ($(window).scrollTop() > 100) {
-    $('#header').addClass('header-scrolled');
-  }
+  // if ($(window).scrollTop() > 100) {
+  //   $('.nav-menu a').css("color", "white");
+  // }
 
   // Stick the header at top on scroll
   $("#header").sticky({
