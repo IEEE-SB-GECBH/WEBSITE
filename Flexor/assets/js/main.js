@@ -118,6 +118,30 @@
     $('#header').addClass('header-scrolled');
   }
 
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('.nav-menu a').addClass('header-scrolled');
+    } else {
+      $('.nav-menu a').removeClass('header-scrolled');
+    }
+  });
+
+  if ($(window).scrollTop() > 100) {
+    $('.nav-menu a').addClass('header-scrolled');
+  }
+
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 100) {
+      $('#header').addClass('header-scrolled');
+    } else {
+      $('#header').removeClass('header-scrolled');
+    }
+  });
+
+  if ($(window).scrollTop() > 100) {
+    $('#header').addClass('header-scrolled');
+  }
+
   // Stick the header at top on scroll
   $("#header").sticky({
     topSpacing: 0,
