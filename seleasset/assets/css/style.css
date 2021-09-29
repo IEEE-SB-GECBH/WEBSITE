@@ -37,14 +37,14 @@
   border-radius: 50px;
   width: 36px;
   height: 36px;
-  background: rgba(115, 151, 47, 0.8);
+  background: rgb(85, 130, 226);
   display: inline-block;
   transition: ease-in-out 0.3s;
   color: #fff;
 }
 
 .team .member .social a:hover {
-  background: #9a42ec;
+  background: #79ff8b;
   text-decoration: none;
 }
 
