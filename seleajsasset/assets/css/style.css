@@ -169,7 +169,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: linear-gradient(90deg, rgb(92 200 241 / 50%) 0%, rgb(183 71 249 / 50%) 100%) , url("../img/dark.jfif") ;
+  background: linear-gradient(90deg, rgb(92 200 241 / 50%) 0%, rgb(183 71 249 / 50%) 100%) , url("/assets/img/dark.jfif") ;
   padding: 20px 0 10px 0;display:flex;
 }
 
@@ -208,7 +208,7 @@ align-items:center;
   color: rgba(255, 255, 255, 0.8);
 }
 .countswie {
-  background: linear-gradient(90deg, rgb(251 250 245 / 50%) 0%, rgb(207 66 232 / 50%) 100%) , url("../img/dark.jfif") ;
+  background: linear-gradient(90deg, rgb(251 250 245 / 50%) 0%, rgb(207 66 232 / 50%) 100%) , url("/assets/img/dark.jfif") ;
   padding: 20px 0 10px 0;display:flex;
 }
 
@@ -229,7 +229,7 @@ align-items:center;
   color: rgba(255, 255, 255, 0.8);
 }
 .countsaps {
-  background: linear-gradient(90deg, #eff3f7 0%, #343a40 100%) , url("../img/dark.jfif") ;
+  background: linear-gradient(90deg, #eff3f7 0%, #343a40 100%) , url("/assets/img/dark.jfif") ;
   padding: 20px 0 10px 0;display:flex;
 }
 
@@ -250,7 +250,7 @@ align-items:center;
   color: rgba(255, 255, 255, 0.8);
 }
 .countcs {
-  background: linear-gradient(90deg, #f8faf8eb 0%, #1b6fa0 100%) , url("../img/dark.jfif") ;
+  background: linear-gradient(90deg, #f8faf8eb 0%, #1b6fa0 100%) , url("/assets/img/dark.jfif") ;
   padding: 20px 0 10px 0;display:flex;
 }
 
@@ -271,7 +271,7 @@ align-items:center;
   color: rgba(255, 255, 255, 0.8);
 }
 .countsmtts {
-  background: linear-gradient(90deg, #f8faf8eb 0%, #0c5b5f 100%) , url("../img/dark.jfif") ;
+  background: linear-gradient(90deg, #f8faf8eb 0%, #0c5b5f 100%) , url("/assets/img/dark.jfif") ;
   padding: 20px 0 10px 0;display:flex;
 }
 
