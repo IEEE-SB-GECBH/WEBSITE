@@ -305,16 +305,18 @@ const Slide = ({
         "--offset": offset,
         "--dir": offset === 0 ? 0 : offset > 0 ? 1 : -1 } },
 
-    isPageBackground && /*#__PURE__*/
-    React.createElement("div", {
+    
+    /*isPageBackground && /*#__PURE__*/
+    /*React.createElement("div", {
       className: "slideBackground",
       style: {
-        backgroundImage: `url("../assets/img/carousel4.jpeg")` } }), 
+        backgroundImage: `url("../assets/img/carousel4.jpeg")` } }),*/
 
     React.createElement("div", {
       className: "slideContent",
       style: {
         backgroundImage: `url('${image}')` } }, /*#__PURE__*/
+    
 
 
     React.createElement("div", { className: "slideContentInner" },
