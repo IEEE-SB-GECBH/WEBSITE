@@ -1,4 +1,7 @@
-
+.services
+{
+    background-image: url(../img/bg9.png);
+}
 /* 
 ---------------------------------------------
 Services Style
@@ -8,6 +11,16 @@ Services Style
 .services {
   padding-top: 130px;
   position: relative;
+}
+
+.headings h4{
+    color: rgb(60, 226, 171);
+}
+
+.para
+{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
 }
 
 .services  .section-heading p {
@@ -23,7 +36,6 @@ Services Style
 
 .services:after {
   content: '';
-  background-image: url(../img/service/services-left-dec.png);
   background-repeat: no-repeat;
   position: absolute;
   left: 0;
@@ -35,7 +47,6 @@ Services Style
 
 .services:before {
   content: '';
-  background-image: url(../img/service/services-right-dec.png);
   background-repeat: no-repeat;
   position: absolute;
   right: 0;
@@ -384,9 +395,105 @@ responsive
   }
 }
 
-em {
+h4,em {
   margin: 0;
   padding: 0;
   border: 0;
   outline: 0;
 }
+.section-heading {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .section-heading h4 {
+    color: #2a2a2a;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+  
+  .section-heading h4 em {
+    font-style: normal;
+    color: #4b8ef1;
+  }
+  
+  .section-heading img {
+    width: 45px;
+    height: 2px;
+  }
+  
+  .section-heading p {
+    margin-top: 10px;
+  }
+  
+
+
+
+  #foot button {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #foot button:hover {
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 8px #62da7c;
+  }
+  
+  #foot {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px #50ff1b;
+    width: 200px;
+    height: 65px;
+    background-color: #d35e40;
+    animation-duration: 3s;
+  }
+  
+  .button-os {
+    position: absolute;
+    width: 200px;
+    height: 65px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #acb6f0d3;
+    border: 2.5px solid #010102;
+    transition: background-color 2.2s;
+    transition-duration: 3s;
+    transition: 1.5s;
+  }
+  
+  .button-os:hover {
+    position: absolute;
+    background-color: #ebca8dd3;
+  }
+  
+  .button-os a {
+    font-size: 20px;
+    display: block;
+    text-decoration: none;
+    color: #0e172c;
+    transition: 1.5s;
+  }
+  
+  .button-os a:hover {
+    letter-spacing: 5px;
+  }
