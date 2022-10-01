@@ -3907,3 +3907,17 @@ margin-bottom: 15px;
                                                 
 }
 
+
+.heading{
+ 
+  font-family: AllianceNo2, sans-serif;
+  font-size: 72px;
+  font-weight: 800;
+  background: -webkit-linear-gradient(45deg,rgb(255, 0, 0), rgb(87, 3, 143) 70%);
+  background-size:33% 100%;
+  background-repeat: no-repeat;
+  background-position-x: 5em;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
