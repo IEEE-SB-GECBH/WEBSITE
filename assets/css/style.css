@@ -10,7 +10,11 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
+  font-family: 'Inder', sans-serif;
   color: #313030;
+}
+.p{
+  font-family: inherit;
 }
 
 a {
@@ -3920,4 +3924,86 @@ margin-bottom: 15px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.card{
+  overflow: hidden;
+}
+.effect {
+  transition: transform .5s ease;
+
+}
+.effect:hover {
+  transform: scale(1.25);
+}
+
+
+.effect3 {
+  transition: transform .5s ease;
+
+}
+.effect3:hover {
+  transform: scale(2);
+ 
+
+}
+
+/* .effect2{
+  overflow: visible;
+}
+.effect3 {
+
+  
+  transition: transform .5s ease;
+
+
+}
+.effect3 :hover{
+  transform: scale(2.5);
+  backdrop-filter: blur(10px);
+  
+}
+
+
+.effect2 {
+  display: flex;
+}
+
+
+
+.effect2:hover > .effect3:not(:hover) {
+  filter: blur(4px);
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
