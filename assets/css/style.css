@@ -3603,3 +3603,104 @@ section.awSlider > img{
   color: #2a2c39;
   border-bottom: 1.5px solid #ee4b2b;
 }
+
+.achieve-title
+{
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to left, #553c9a 45%, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #ee4b2b;
+}
+@media only screen and (max-width: 1058px){
+.achieve-title p
+{ 
+  font-size: 45px; 
+}
+}
+
+.demo
+{ 
+  background: #f0e0d4;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.achievement-box{
+    text-align: center;
+    position: relative;
+}
+.achievement-box .pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 8px solid #380149;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.achievement-box img{
+    width: 100%;
+    align-items: center;
+}
+.achievement-box .social{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    transition: all 0.3s ease-out 0s;
+}
+.achievement-box .social li a{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    background: #f28a31;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 5px;
+    transform: scale(0);
+    transition: all 0.2s ease 0s;
+}
+.achievement-box .achievement-box-content{
+    padding: 15px 15px 20px;
+    background: #380149;
+    border-radius: 40px 10px;
+    margin-top: -20px;
+    color: #fff;
+}
+.achievement-box .title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+}
+.achievement-box .post{
+    display: block;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.achievement-box .achievement-box-description{
+    padding: 20px;
+    background: #fff;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #666;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+@media only screen and (max-width: 990px){
+    .achievement-box{ margin-bottom: 30px; }
+}
+@media only screen and (max-width: 359px){
+    .achievement-box .pic{
+        width: 150px;
+        height: 150px;
+    }
+    .achievement-box .social{ top: 20px; }
+}
