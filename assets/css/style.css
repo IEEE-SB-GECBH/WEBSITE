@@ -4586,3 +4586,13 @@ section.awSlider > img
   font-weight: 600;
 }
 /*Card 16 Ends here*/
+
+
+/* cognitionis page */
+
+.cognitionis_winner{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+}
