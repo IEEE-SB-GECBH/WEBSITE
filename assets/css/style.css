@@ -1170,7 +1170,7 @@ blockquote a {
   background-size: contain;
 }
 .about_card:nth-child(6):before {
-  background-image: url(../img/SIGHT\ Logo.webp);
+  background-image: url(../img/SIGHT_Logo.webp);
   background-color: #cccccc;
   background-size: contain;
 }
