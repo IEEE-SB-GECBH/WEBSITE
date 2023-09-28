@@ -410,43 +410,131 @@
   const slides = [
   {
     id: 1,
-    image: "../assets/img/exordium/exordium-beg/exd-beg-1.webp" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-0.webp" },
   
   {
     id: 2,
-    image: "../assets/img/exordium/exordium-beg/exd-beg-2.webp" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-1.webp" },
   
   {
     id: 3,
-    image: "../assets/img/exordium/exordium-beg/exd-beg-3.webp" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-2.webp" },
     
   {
     id: 4,
-    image: "../assets/img/exordium/exordium-beg/exd-beg-4.webp" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-3.webp" },
 
   {
     id: 5,
-    image: "../assets/img/exordium/exordium-beg/exd-beg-5.webp" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-4.webp" },
   
   {
     id: 6,
-    image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-5.webp" },
   
   {
     id: 7,
-    image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-6.webp" },
   
   {
     id: 8,
-    image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-7.webp" },
     
   {
     id: 9,
-    image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-8.webp" },
 
   {
     id: 10,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-9.webp" },
+
+  {
+    id: 11,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-10.webp" },
+
+{
+    id: 12,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-11.webp" },
+  
+  {
+    id: 13,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-12.webp" },
+  
+  {
+    id: 14,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-13.webp" },
+    
+  {
+    id: 15,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-14.webp" },
+
+  {
+    id: 16,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-15.webp" },
+  
+  {
+    id: 17,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-16.webp" },
+  
+  {
+    id: 18,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-17.webp" },
+  
+  {
+    id: 19,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-18.webp" },
+    
+  {
+    id: 20,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-19.webp" },
+
+  {
+    id: 21,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-20.webp" },
+
+  {
+    id: 22,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-21.webp" },
+
+  {
+    id: 23,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-22.webp" },
+  
+  {
+    id: 24,
     image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
+  
+  {
+    id: 25,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-24.webp" },
+    
+  {
+    id: 26,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-25.webp" },
+
+  {
+    id: 27,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-26.webp" },
+  
+  {
+    id: 28,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-27.webp" },
+  
+  {
+    id: 29,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-28.webp" },
+  
+  {
+    id: 30,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-29.webp" },
+    
+  {
+    id: 31,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-30.webp" },
+
+  {
+    id: 32,
+    image: "../assets/img/exordium/exordium-beg/exd-beg-31.webp" },
   ];
       
     
