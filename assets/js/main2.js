@@ -410,56 +410,44 @@
   const slides = [
   {
     id: 1,
-    image: "../assets/img/carousel1.jpeg" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-1.webp" },
   
   {
     id: 2,
-    image: "../assets/img/carousel2.jpeg" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-2.webp" },
   
   {
     id: 3,
-    image: "../assets/img/carousel3.jpeg" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-3.webp" },
     
   {
     id: 4,
-    image: "../assets/img/carousel4.jpeg" },
-      
-    
+    image: "../assets/img/exordium/exordium-beg/exd-beg-4.webp" },
+
   {
     id: 5,
-    image: "../assets/img/carousel5.jpeg"},
+    image: "../assets/img/exordium/exordium-beg/exd-beg-5.webp" },
   
   {
     id: 6,
-    image: "../assets/img/carousel6.jpeg" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
   
   {
     id: 7,
-    image: "../assets/img/carousel7.jpeg" },
+    image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
   
   {
     id: 8,
-    image: "../assets/img/carousel8.jpeg"},
-  
+    image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
+    
   {
     id: 9,
-    image: "../assets/img/carousel9.jpeg" },
-  
+    image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
+
   {
     id: 10,
-    image: "../assets/img/carousel10.jpeg" },
-  
-  {
-    id: 11,
-    image: "../assets/img/carousel11.jpeg" },
-  
-  {
-    id: 12,
-    image: "../assets/img/carousel12.jpeg" },
-  
-  {
-    id: 13,
-    image: "../assets/img/carousel13.jpeg"}];
+    image: "../assets/img/exordium/exordium-beg/exd-beg-23.webp" },
+  ];
       
     
   
