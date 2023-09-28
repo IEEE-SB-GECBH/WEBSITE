@@ -1170,7 +1170,7 @@ blockquote a {
   background-size: contain;
 }
 .about_card:nth-child(6):before {
-  background-image: url(../img/MTT-S-logo.jpg);
+  background-image: url(../img/SIGHT\ Logo.webp);
   background-color: #cccccc;
   background-size: contain;
 }
@@ -4595,7 +4595,7 @@ section.awSlider > img
 
 /* cognitionis page */
 
-.cognitionis_winner{
+.winner{
   display: block;
 margin-left: auto;
 margin-right: auto;
