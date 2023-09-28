@@ -1169,6 +1169,11 @@ blockquote a {
   background-color: #cccccc;
   background-size: contain;
 }
+.about_card:nth-child(6):before {
+  background-image: url(../img/MTT-S-logo.jpg);
+  background-color: #cccccc;
+  background-size: contain;
+}
 .content {
   position: relative;
   display: flex;
