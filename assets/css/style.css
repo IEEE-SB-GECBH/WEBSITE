@@ -1169,6 +1169,11 @@ blockquote a {
   background-color: #cccccc;
   background-size: contain;
 }
+.about_card:nth-child(6):before {
+  background-image: url(../img/SIGHT_Logo.webp);
+  background-color: #cccccc;
+  background-size: contain;
+}
 .content {
   position: relative;
   display: flex;
@@ -4586,3 +4591,13 @@ section.awSlider > img
   font-weight: 600;
 }
 /*Card 16 Ends here*/
+
+
+/* cognitionis page */
+
+.winner{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+}
