@@ -3904,7 +3904,6 @@ section.awSlider > img
     top: 20px;
   }
 }
-
 /*Card 1 Starts*/
 .card1
 {
@@ -3922,7 +3921,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/excom/2021/abhirami.webp);
+  background-image: url(../img/awards/darrel_chong\ .webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -3965,7 +3964,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/goutham.webp);
+  background-image: url(../img/awards/darrel_chong\ .webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4008,7 +4007,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/excom/2022/gokulcm.webp);
+  background-image: url(../img/excom/2023/Goutham.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4051,7 +4050,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/excom/2022/josna.webp);
+  background-image: url(../img/awards/akshay.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4094,7 +4093,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/excom/2021/anumtts.webp);
+  background-image: url(../img/awards/outstanding_sb.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4137,7 +4136,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/MGA-Award-22.webp);
+  background-image: url(../img/excom/2023/Hridya.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4180,7 +4179,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/R10-AWARD.webp);
+  background-image: url(../img/excom/2023/Malavika.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4223,7 +4222,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/DCSA22.webp);
+  background-image: url(../img/awards/akshay.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4266,7 +4265,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/MTT-S-Award.webp);
+  background-image: url(../img/excom/2022/gokulcm.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4309,7 +4308,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/KS-AWARD.webp);
+  background-image: url(../img/awards/exemplary_2.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4334,8 +4333,7 @@ section.awSlider > img
   font-weight: 600;
 }
 /*Card 10 Ends here*/
-
-/*Card 11 Starts Here*/
+/*Card 11 Starts*/
 .card11
 {
   margin: 3rem;
@@ -4352,7 +4350,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/CS-SBC-21.webp);
+  background-image: url(../img/excom/2021/abhirami.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4362,9 +4360,9 @@ section.awSlider > img
 .card11 h1
 {
   position: absolute;
-  padding-top: 200px;
+  padding-top: 180px;
   width: 240px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 650;
   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -4395,7 +4393,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/OBCA.webp);
+  background-image: url(../img/awards/goutham.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4438,7 +4436,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/AP-S-Award.webp);
+  background-image: url(../img/excom/2022/gokulcm.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4481,7 +4479,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/AKCSSC20.webp);
+  background-image: url(../img/excom/2022/josna.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4524,7 +4522,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/42-DCSA.webp);
+  background-image: url(../img/excom/2021/anumtts.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4567,7 +4565,7 @@ section.awSlider > img
   text-align: center;
   border-radius: 5px;
   cursor: pointer;
-  background-image: url(../img/awards/CS-SBC-AKCSSC.webp);
+  background-image: url(../img/awards/MGA-Award-22.webp);
   background-repeat: no-repeat;
   background-size: 90%;
   padding: 20px 20px 20px 20px;
@@ -4592,6 +4590,436 @@ section.awSlider > img
   font-weight: 600;
 }
 /*Card 16 Ends here*/
+
+/*Card 17 Starts Here*/
+.card17
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/R10-AWARD.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card17 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 24px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card17 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 17 Ends here*/
+
+/*Card 18 Starts Here*/
+.card18
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/DCSA22.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card18 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 24px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card18 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 18 Ends here*/
+
+/*Card 19 Starts Here*/
+.card19
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/MTT-S-Award.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card19 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 21.5px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card19 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 19 Ends here*/
+
+/*Card 20 Starts Here*/
+.card20
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/KS-AWARD.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card20 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 24px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card20 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 20 Ends here*/
+
+/*Card 21 Starts Here*/
+.card21
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/CS-SBC-21.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card21 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 24px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card21 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 20 Ends here*/
+
+/*Card 22 Starts Here*/
+.card22
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/OBCA.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card22 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 24px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card22 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 22 Ends here*/
+
+/*Card 23 Starts Here*/
+.card23
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/AP-S-Award.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card23 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 24px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card23 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 23 Ends here*/
+
+/*Card 24 Starts Here*/
+.card24
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/AKCSSC20.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card24 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 24px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card24 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 24 Ends here*/
+
+/*Card 25 Starts Here*/
+.card25
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/42-DCSA.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card25 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 24px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card25 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 25 Ends here*/
+/*Card 26 Starts Here*/
+.card26
+{
+  margin: 3rem;
+  padding: auto;
+  width: 270px;
+  height: 420px;
+  background: #8f74ff;
+  box-shadow: 15px 15px 30px rgba(33, 34, 35, 0.592);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  background: rgb(249, 247, 210);
+  text-align: center;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url(../img/awards/CS-SBC-AKCSSC.webp);
+  background-repeat: no-repeat;
+  background-size: 90%;
+  padding: 20px 20px 20px 20px;
+  background-position-x: 14px;
+  background-position-y: 15px;
+}
+.card26 h1
+{
+  position: absolute;
+  padding-top: 200px;
+  width: 240px;
+  font-size: 24px;
+  font-weight: 650;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card26 p
+{
+  position: absolute;
+  padding-top: 320px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: 600;
+}
+/*Card 26 Ends here*/
+
 
 
 /* cognitionis page */
