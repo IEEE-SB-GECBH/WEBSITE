@@ -3798,12 +3798,14 @@ section.awSlider > img
   border-bottom: 3px solid #ee4b2b;
   padding-top: -30px;
 }
+
 @media only screen and (max-width: 1058px)
 {
   .achieve-title p
   { 
     font-size: 45px; 
   }
+ 
 }
 
 .demo
