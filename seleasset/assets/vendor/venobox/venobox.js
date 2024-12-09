@@ -447,10 +447,10 @@
 
                     // swipe out item
                     if (destination === theprev) {
-                      content.addClass('vbox-animated').addClass('swipe-right');
+      .addClass('vbox-animated').addClass('swipe-right');
                     }
                     if (destination === thenext) {
-                      content.addClass('vbox-animated').addClass('swipe-left');
+      .addClass('vbox-animated').addClass('swipe-left');
                     }
 
                     $preloader.show();
@@ -461,7 +461,7 @@
 
                         overlay.css('background',overlayColor);
 
-                        content
+        
                         .removeClass('vbox-animated')
                         .removeClass('swipe-left')
                         .removeClass('swipe-right')
