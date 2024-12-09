@@ -5170,7 +5170,7 @@ width: 60%;
 /* ------------------------------------------ recent event cards ------------------------------------------ */
 
 /* -------cards--------- */
-.wrapper {
+/* .wrapper {
   padding: 10px 10%;
   box-sizing: border-box;
   color: #fff;
@@ -5248,4 +5248,140 @@ width: 60%;
 
 .box:hover .overlay {
   height: 100%;
+} */
+
+/* Wrapper */
+.wrapper {
+  padding: 10px 10%;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+/* Grid Layout for Boxes */
+.box-area {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
+}
+
+/* Box Style */
+.box {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+}
+
+/* Image inside Box */
+.box img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.5s;
+}
+
+/* Overlay Style */
+.overlay {
+  width: 100%;
+  height: 0;
+  background: linear-gradient(transparent, #1c1c1c 58%);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 14px;
+  transition: height 0.5s;
+}
+
+/* Overlay Header */
+.overlay h3 {
+  font-weight: 500;
+  margin-bottom: 3px;
+  margin-top: 80%;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+/* Overlay Paragraph */
+.overlay p {
+  margin-bottom: 3px;
+}
+
+/* Overlay Link */
+.overlay a {
+  margin-top: 5px;
+  color: #262626;
+  text-decoration: none;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 50px;
+  text-align: center;
+  padding: 5px 15px;
+}
+
+/* Responsive Image Scaling on Hover */
+.box:hover img {
+  transform: scale(1.1);
+}
+
+/* Responsive Overlay Height on Hover */
+.box:hover .overlay {
+  height: 100%;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+  .wrapper {
+    padding: 10px 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 10px 2%;
+  }
+
+  .box-area {
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .overlay {
+    padding: 0 20px;
+  }
+
+  .overlay h3 {
+    font-size: 20px;
+  }
+
+  .overlay a {
+    padding: 3px 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .box-area {
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
+  .overlay h3 {
+    font-size: 18px;
+  }
+
+  .overlay p {
+    font-size: 12px;
+  }
+
+  .overlay a {
+    padding: 2px 8px;
+  }
 }
