@@ -5251,40 +5251,40 @@ width: 60%;
 .box:hover .overlay {
   height: 100%;
 } */
-
+/* ................................................................................... */
 /* Wrapper */
-.wrapper {
+/* .wrapper {
   padding: 10px 10%;
   box-sizing: border-box;
   color: #fff;
-}
+} */
 
 /* Grid Layout for Boxes */
-.box-area {
+/* .box-area {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
-}
+} */
 
 /* Box Style */
-.box {
+/* .box {
   border-radius: 10px;
   position: relative;
   overflow: hidden;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-}
+} */
 
 /* Image inside Box */
-.box img {
+/* .box img {
   width: 100%;
   border-radius: 10px;
   display: block;
   transition: transform 0.5s;
-}
+} */
 
 /* Overlay Style */
-.overlay {
+/* .overlay {
   width: 100%;
   height: 0;
   background: linear-gradient(transparent, #1c1c1c 58%);
@@ -5301,17 +5301,17 @@ width: 60%;
   text-align: center;
   font-size: 14px;
   transition: height 0.5s;
-}
+} */
 
 /* Overlay Header */
-.overlay h3 {
+/* .overlay h3 {
   font-weight: 500;
   margin-bottom: 3px;
   margin-top: 80%;
   font-family: 'Bebas Neue', sans-serif;
   font-size: 30px;
   letter-spacing: 2px;
-}
+} */
 
 /* Overlay Paragraph */
 .overlay p {
