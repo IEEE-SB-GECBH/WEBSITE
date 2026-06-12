@@ -1175,6 +1175,17 @@ blockquote a {
   background-color: #cccccc;
   background-size: contain;
 }
+.about_card:nth-child(7):before {
+
+  background-image: url(../img/SSCS-LOGO-bgwhite.png);
+  background-color: #cccccc;
+  background-size: contain;
+}
+.about_card:nth-child(7) {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 300px;
+}
 .content {
   position: relative;
   display: flex;
